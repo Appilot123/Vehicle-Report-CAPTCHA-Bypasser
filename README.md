@@ -1,5 +1,14 @@
 <h1 align="center">Vehicle Report CAPTCHA Bypasser</h1>
 
+
+## Project Overview:
+This automation project focuses on bypassing reCAPTCHA challenges (v2/v3) to streamline access to a vehicle history report API in a reseller environment. The main challenge? Google’s reCAPTCHA is blocking direct programmatic requests. The goal is to solve or bypass the CAPTCHA layer either through stealth browser sessions (using Playwright or Puppeteer) or external solving services like 2Captcha or CapMonster, so users get near-instant access to reports — no friction, no delay.
+
+## Core Features:
+- **Stealth Browser Automation:** Mimics real human interaction using headless Chrome instances and anti-bot evasion techniques.
+- **Smart CAPTCHA Solving:** Automatically solves or bypasses reCAPTCHA v2/v3 using token injection, solver APIs, or stealth workflows.
+- **Session Spoofing & Header Forging:** Crafts legitimate request headers and cookies to maintain authenticated sessions and mimic real user activity.
+
 <div align="center">
   <img
     src="https://github.com/user-attachments/assets/d200549d-7613-446f-a43b-19a4117ca360"
@@ -63,13 +72,6 @@
 
 <div align="left">
 
-## Project Overview:
-This automation project focuses on bypassing reCAPTCHA challenges (v2/v3) to streamline access to a vehicle history report API in a reseller environment. The main challenge? Google’s reCAPTCHA is blocking direct programmatic requests. The goal is to solve or bypass the CAPTCHA layer either through stealth browser sessions (using Playwright or Puppeteer) or external solving services like 2Captcha or CapMonster, so users get near-instant access to reports — no friction, no delay.
-
-## Core Strengths:
-- **Stealth Browser Automation:** Mimics real human interaction using headless Chrome instances and anti-bot evasion techniques.
-- **Smart CAPTCHA Solving:** Automatically solves or bypasses reCAPTCHA v2/v3 using token injection, solver APIs, or stealth workflows.
-- **Session Spoofing & Header Forging:** Crafts legitimate request headers and cookies to maintain authenticated sessions and mimic real user activity.
 
 ## Features List:
 | **Feature**                | **Description**                                                                 |
